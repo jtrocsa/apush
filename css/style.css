@@ -26,7 +26,7 @@ a { color: inherit; }
   color: white;
   background:
     linear-gradient(rgba(18, 12, 8, 0.7), rgba(18, 12, 8, 0.7)),
-    url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/George_Washington_Crossing_the_Delaware_by_Emanuel_Leutze%2C_1851.jpg/1600px-George_Washington_Crossing_the_Delaware_by_Emanuel_Leutze%2C_1851.jpg");
+    url("../assets/Washington_Crossing_the_Delaware_MET_DP245003FXD.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
