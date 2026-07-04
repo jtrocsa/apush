@@ -26,7 +26,7 @@ a { color: inherit; }
   color: white;
   background:
     linear-gradient(rgba(18, 12, 8, 0.7), rgba(18, 12, 8, 0.7)),
-    url("../assets/Washington_Crossing_the_Delaware_MET_DP245003FXD.jpg");
+    url("../assets/images/Washington_Crossing_the_Delaware_MET_DP245003FXD.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -189,6 +189,39 @@ h3 { margin-top: 0; }
 .check-list li, .objective-list li {
   margin: 12px 0;
   line-height: 1.5;
+}
+
+.timeline {
+  display: grid;
+  gap: 12px;
+}
+
+.timeline-item {
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 14px 16px;
+  background: var(--paper);
+}
+
+.timeline-item summary {
+  cursor: pointer;
+  font-weight: 700;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.timeline-year {
+  color: var(--brown);
+  font-family: Arial, sans-serif;
+  font-size: 0.95rem;
+  min-width: 60px;
+}
+
+.timeline-item p {
+  margin: 10px 0 0 72px;
+  color: var(--muted);
+  line-height: 1.55;
 }
 
 .text-link {
