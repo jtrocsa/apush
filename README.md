@@ -1,13 +1,11 @@
-# APUSH Help Hub
+# APUSH Help Hub v0.2
 
-A simple APUSH website built with HTML, CSS, and JavaScript.
+This version reorganizes the site into a scalable structure:
 
-## Files
+- `index.html` = homepage
+- `css/style.css` = design
+- `js/script.js` = small interactions
+- `pages/unit1.html` through `pages/unit9.html` = individual unit pages
+- `pages/dbq.html`, `pages/leq.html`, `pages/saq.html`, `pages/hipp.html`, `pages/skills.html` = skills pages
 
-- `index.html` = the main webpage
-- `style.css` = the design and layout
-- `script.js` = the quiz interaction
-
-## How to use
-
-Upload these files to your GitHub repository. Then connect the repository to Vercel and deploy.
+Content is paraphrased and organized around the AP U.S. History Course and Exam Description structure.
